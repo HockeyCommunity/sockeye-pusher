@@ -1,8 +1,6 @@
-# Sockeye::Pusher
+# 🐟 Sockeye::Pusher
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sockeye/pusher`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This project is currently under development, and is not usable. Please check back soon.
 
 ## Installation
 
@@ -22,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+client = Sockeye::Pusher.new(server_address: "ws://sockeye.local:8443", secret_token: "SUPER_STRONG_SECURITY_TOKEN")
+result = client.deliver(identifiers: ["USER ID OR OTHER UNIQUE IDENTIFIER"], payload: "Test message. Can be text or JSON.")
+puts result.inspect
+```
 
 ## Development
 
