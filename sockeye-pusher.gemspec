@@ -5,7 +5,7 @@ require 'sockeye/pusher/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "sockeye-pusher"
-  spec.version       = Sockeye::Client::VERSION
+  spec.version       = Sockeye::Pusher::VERSION
   spec.authors       = ["Jack Hayter"]
   spec.email         = ["jack@hockey-community.com"]
 
