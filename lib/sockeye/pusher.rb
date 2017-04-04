@@ -1,4 +1,3 @@
-require "sockeye/pusher/version"
 require 'timeout'
 require 'json'
 require 'websocket-client-simple'

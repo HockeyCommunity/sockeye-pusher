@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sockeye/pusher/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "sockeye-pusher"
-  spec.version       = Sockeye::Pusher::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["Jack Hayter"]
   spec.email         = ["jack@hockey-community.com"]
 
